@@ -8,27 +8,63 @@
       "photo": "https://media.suara.com/pictures/653x366/2018/09/17/68090-djoko-santoso.jpg",
       "idUser": 1,
       "id": 1
+    },
+    {
+      "fullName": "Mas Santo",
+      "email": "santo@binus.ac.id",
+      "username": "santo123",
+      "password": "Santo123",
+      "photo": "",
+      "id": 2
     }
   ],
   "seller": [
     {
-      "marketName": "Joko Store",
+      "sellerName": "Joko Store",
       "slogan": "ga jualan ga makan",
       "photo": "https://media.suara.com/pictures/653x366/2018/09/17/68090-djoko-santoso.jpg",
+      "id": 1
+    },
+    {
+      "sellerName": "",
+      "photo": "",
+      "slogan": "",
+      "id": 2
+    }
+  ],
+  "favorite": [
+    {
+      "idUser": "1",
+      "idAccount": 2,
       "id": 1
     }
   ],
   "transaction": [
     {
       "id": 1,
-      "idSeller": 1,
+      "noTransaction": "TR1654781983445",
+      "idSeller": 2,
       "idUser": 1,
       "idAccount": 1,
       "date": "12/01/2022",
       "totalTransaction": 250000,
-      "statusTransaction": "Menunggu Konfirmasi Penjual",
-      "rating": "",
+      "status": "Done",
+      "paymentMethod": "Gopay",
+      "rating": 4,
       "comment": ""
+    },
+    {
+      "noTransaction": "TR1654824406443",
+      "idSeller": 2,
+      "idUser": 1,
+      "idAccount": 2,
+      "date": "10/5/2022",
+      "totalTransaction": 650000,
+      "status": "Done",
+      "paymentMethod": "Go Pay Later",
+      "rating": 0,
+      "comment": "",
+      "id": 2
     }
   ],
   "account": [
@@ -43,6 +79,7 @@
       "changeNameStatus": "Available",
       "totalVP": 22500,
       "rank": "Gold 2",
+      "battlepass": "E2 A2 FULL, E2 A3 FULL, E3 A2 FULL, E4 A1 FULL",
       "reason": "butuh uang dan spek laptop tidak memadai",
       "level": 124,
       "agent": [
